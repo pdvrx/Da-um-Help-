@@ -21,7 +21,9 @@
     "@react-navigation/stack": "*",
     "@expo-google-fonts/inter": "*",
     "@react-navigation/native": "*",
+    "react-native-vector-icons": "*",
     "react-native-gesture-handler": "~2.1.0",
+    "@react-navigation/bottom-tabs": "*",
     "react-native-safe-area-context": "3.3.2"
   },
   "devDependencies": {

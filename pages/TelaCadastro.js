@@ -59,7 +59,7 @@ export default function TelaLogin({navigation}) {
 
 
 
-        <Pressable style={styles.btnCadastro} onPress={()=>navigation.navigate("Feed")}>
+        <Pressable style={styles.btnCadastro} onPress={()=>navigation.navigate("Tabs")}>
           <Text style={styles.btnTxt}>Cadastra-se</Text>
         </Pressable>
 
