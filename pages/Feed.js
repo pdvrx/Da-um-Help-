@@ -1,13 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, Pressable, Image } from 'react-native';
-import Constants from 'expo-constants';
-import { useState } from 'react';
-import { useFonts, Roboto_800Black } from '@expo-google-fonts/inter';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import BoxOrg from '../components/BoxOrg';
-import { NavigationContainer } from '@react-navigation/native';
-import Tabs from '../components/Tabs';
+
 import TopBar from '../components/TopBar';
 import Org1 from '../assets/ong1.jpg';
 
