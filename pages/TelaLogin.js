@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, Pressable, Image } from 'react-native';
-import Constants from 'expo-constants';
-import { useState } from 'react';
-import { useFonts, Roboto_800Black } from '@expo-google-fonts/inter';
+
 
 export default function TelaLogin({navigation}) {
 
