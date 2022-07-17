@@ -12,7 +12,7 @@ export default function TelaLogin({navigation}) {
 
         <Image style={styles.logo} source={require('../assets/logo.png')}/>
         <Text style={styles.tit}> Bem vindo ao Da um Help </Text>
-        <Text style={styles.txt}> Somos um portal para facilitar na comunicação entre pessoas dispostas a fazer o bem assim  como você, e organizações que precisam do  nosso apoio para continuar com seus  incríveis projetos! </Text>
+        <Text style={styles.txt}> Somos um portal para facilitar na comunicaçãoentre pessoas dispostas a fazer o bem assim como você, e organizações que precisam do nosso apoio para continuar com seus incríveis projetos! </Text>
         <Pressable style={styles.btnCadastro} onPress={()=>navigation.navigate("Cadastro")}>
           <Text style={styles.btnTxt}>Cadastra-se</Text>
         </Pressable>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     justifyContent:'center',
     flexDirection:'column',
     textAlign:'center',
-    backgroundColor:'E5E5E5',
+    backgroundColor:'#E5E5E5',
     padding:'10px'
   },
 
