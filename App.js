@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Tabs">
+      <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Login">
         <Stack.Screen  name="Login" component={TelaLogin}/>
         <Stack.Screen name="Cadastro" component={TelaCadastro}/>
         <Stack.Screen name="Feed" component={Feed}/>
