@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {ScrollView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import TelaLogin from './pages/TelaLogin';
@@ -16,22 +17,22 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Tabs">
-        <Stack.Screen  name="Login" component={TelaLogin}/>
-        <Stack.Screen name="Cadastro" component={TelaCadastro}/>
-        <Stack.Screen name="Feed" component={Feed}/>
-        <Stack.Screen name="Search" component={Search}/>
-        <Stack.Screen name="Profile" component={Profile}/>
-        <Stack.Screen name="Notification" component={Notification}/>
-        <Stack.Screen name="Tabs" component={Tabs}/>
+    <ScrollView style={{width:'100%'}}>
+      <NavigationContainer>
+        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Login">
+          <Stack.Screen  name="Login" component={TelaLogin}/>
+          <Stack.Screen name="Cadastro" component={TelaCadastro}/>
+          <Stack.Screen name="Feed" component={Feed}/>
+          <Stack.Screen name="Search" component={Search}/>
+          <Stack.Screen name="Profile" component={Profile}/>
+          <Stack.Screen name="Notification" component={Notification}/>
+          <Stack.Screen name="Tabs" component={Tabs}/>
 
-      </Stack.Navigator>
-
-
-    </NavigationContainer>
+        </Stack.Navigator>
 
 
+      </NavigationContainer>
+    </ScrollView>
   );
 }
 
