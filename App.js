@@ -19,7 +19,7 @@ export default function App() {
   return (
     <ScrollView style={{width:'100%'}}>
       <NavigationContainer>
-        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Login">
+        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Feed">
           <Stack.Screen  name="Login" component={TelaLogin}/>
           <Stack.Screen name="Cadastro" component={TelaCadastro}/>
           <Stack.Screen name="Feed" component={Feed}/>
