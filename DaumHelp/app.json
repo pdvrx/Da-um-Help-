@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "DaumHelp",
+    "slug": "DaumHelp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
